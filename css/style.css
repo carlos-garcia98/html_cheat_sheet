@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(to bottom, #01C38D, #191E29);
+    background-attachment: fixed;
+}
+
+h1, h2, p {
+    text-align: center;
+    color: white;
+}
+
+table {
+    margin: 0 auto;
+    width: 650px;
+    color: #ffffffde;
+}
+
+thead {
+    text-align: center;
+    background-color: #132d467c;
+
+}
+
+th {
+    display: table-cell;
+}
+
+tr {
+    display: table-row;
+}
+
+td {
+    border-top: 1px solid #132d467c;
+    padding: 7px;
+}
