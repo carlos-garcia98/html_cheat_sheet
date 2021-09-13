@@ -14,7 +14,10 @@
 <body>
     <header>
         <h1>HTML Tags Cheat Sheet</h1>
-        <p>These are not all the tags that exist, to see more tags and their information check the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">MDN: HTML elements reference.</a></p>
+        <div>
+            <p>This cheat sheet list some HTML tags that can be useful, they are grouped by function.</p>
+            <p>The information shown about the tags was retrieved from the MDN Web Docs. These are not all the tags that exist, to see more tags and their information check the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">MDN: HTML elements reference.</a></p>
+        </div>
     </header>
     <main>
         <section>
@@ -139,23 +142,38 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>&lthead&gt</td>
-                        <td>The head tag contains metadata (machine-readable information) about the document.</td>
+                        <td>&ltdiv&gt</td>
+                        <td>The div tag is the generic container for flow content. It has no effect in the content or the layout until styled in some way using CSS.</td>
                         <td>No</td>
                     </tr>
                     <tr>
-                        <td>&ltlink&gt</td>
-                        <td>The link tag specifies relationships between the document and an external resource</td>
-                        <td>Yes</td>
+                        <td>&ltp&gt</td>
+                        <td>The p tag represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation.</td>
+                        <td>No</td>
                     </tr>
                     <tr>
-                        <td>&ltmeta&gt</td>
-                        <td>The meta tag represent the metadata taht cannot be represented by other HTML meta-related tag.</td>
-                        <td>Yes</td>
+                        <td>&ltul&gt</td>
+                        <td>The ul tag represents an unordered list of items, typically rendered as a bulleted list.</td>
+                        <td>No</td>
                     </tr>
                     <tr>
-                        <td>&lttitle&gt</td>
-                        <td>The title tag defines the document's title and it's shown on the browser's title tab or page's tab.</td>
+                        <td>&ltol&gt</td>
+                        <td>The ol tag represents an ordered list of items, typically rendered as a numbered list.</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>&lli&gt</td>
+                        <td>The li tag is used to represent an item list. It must be contained in a parent element: an ordered list (ol), an unordered list (ul) or a menu (menu)</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>&ltfigure&gt</td>
+                        <td>The figure tag represents self-contained content, potentially with an option caption, which is specified using the figcaption tag.</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>&ltfigcaption&gt</td>
+                        <td>The figcaption tag represents a caption or legend describing the rest of the contents of its parent figure tag.</td>
                         <td>No</td>
                     </tr>
                 </tbody>
@@ -174,13 +192,13 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>&lthead&gt</td>
-                        <td>The head tag contains metadata (machine-readable information) about the document.</td>
+                        <td>&lta&gt</td>
+                        <td>The a (or anchor) tag, with its href attribute creates a hyperlink to web pages, files, email addresses, location in the same page or anything else a URL can address.</td>
                         <td>No</td>
                     </tr>
                     <tr>
-                        <td>&ltlink&gt</td>
-                        <td>The link tag specifies relationships between the document and an external resource</td>
+                        <td>&ltbr&gt</td>
+                        <td>The br tag produces a line break in text. It is useful for writing a poem or an address, where the division of lines are significant.</td>
                         <td>Yes</td>
                     </tr>
                     <tr>
@@ -189,8 +207,23 @@
                         <td>Yes</td>
                     </tr>
                     <tr>
-                        <td>&lttitle&gt</td>
-                        <td>The title tag defines the document's title and it's shown on the browser's title tab or page's tab.</td>
+                        <td>&ltcode&gt</td>
+                        <td>The code tag displays its content styled in a fashion intended to indicate that the text is a short fragment of computer code.</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>&ltspan&gt</td>
+                        <td>The span tag is a generic inline container for phrasing content, which does not inherently represent anything.</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>&ltem&gt</td>
+                        <td>The em tag marks text that has stress emphasis.</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>&ltstrong&gt</td>
+                        <td>The strong tag indicates that its contents have strong importance, seriousness, or urgency. Browsers typically render the contents in bold type.</td>
                         <td>No</td>
                     </tr>
                 </tbody>
@@ -209,28 +242,31 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>&lthead&gt</td>
-                        <td>The head tag contains metadata (machine-readable information) about the document.</td>
+                        <td>&ltimage&gt</td>
+                        <td>The image tag embeds an image into the document.</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&ltaudio&gt</td>
+                        <td>The audio tag is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the source element: the browser will choose the most suitable one.</td>
                         <td>No</td>
                     </tr>
                     <tr>
-                        <td>&ltlink&gt</td>
-                        <td>The link tag specifies relationships between the document and an external resource</td>
-                        <td>Yes</td>
+                        <td>&ltvideo&gt</td>
+                        <td>The video tag embeds a media player which supports video playback into the document.</td>
+                        <td>No</td>
                     </tr>
                     <tr>
-                        <td>&ltmeta&gt</td>
-                        <td>The meta tag represent the metadata taht cannot be represented by other HTML meta-related tag.</td>
-                        <td>Yes</td>
-                    </tr>
-                    <tr>
-                        <td>&lttitle&gt</td>
-                        <td>The title tag defines the document's title and it's shown on the browser's title tab or page's tab.</td>
+                        <td>&ltmap&gt</td>
+                        <td>The map tag is used with area elements to define an image map (a clickable link area).</td>
                         <td>No</td>
                     </tr>
                 </tbody>
             </table>
         </section>
     </main>
+    <footer>
+        <p>Author: Carlos García | Email: carlos0698@live.com | Github: <a href="https://github.com/carlos-garcia98" target="_blank" id="github">https://github.com/carlos-garcia98</a></p>
+    </footer>
 </body>
 </html>
