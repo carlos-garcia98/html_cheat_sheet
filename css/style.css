@@ -9,6 +9,10 @@ h1, h2, p {
     color: white;
 }
 
+section {
+    margin: 70px;
+}
+
 table {
     margin: 0 auto;
     width: 650px;
@@ -19,14 +23,6 @@ thead {
     text-align: center;
     background-color: #132d467c;
 
-}
-
-th {
-    display: table-cell;
-}
-
-tr {
-    display: table-row;
 }
 
 td {
